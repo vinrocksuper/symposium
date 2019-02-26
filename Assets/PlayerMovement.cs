@@ -4,32 +4,41 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public CharacterController2D controller;
-    float horizontal = 0f;
-    bool jump = false;
-    public float speed = 400f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public CharacterController2D controller;
+
+    public float runSpeed = 400f;
+
+    float horizontalMove = 0f;
+    bool jump = false;
+    bool crouch = false;
 
     // Update is called once per frame
     void Update()
     {
-        jump = false;
-        horizontal = Input.GetAxisRaw("Horizontal") * speed;
-        if(Input.GetButtonDown("Jump"))
+
+        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+        if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            Debug.Log("space was pressed");
         }
+
+        if (Input.GetButtonDown("Crouch"))
+        {
+            crouch = true;
+        }
+        else if (Input.GetButtonUp("Crouch"))
+        {
+            crouch = false;
+        }
+
     }
 
-    //Move character
     void FixedUpdate()
     {
-        controller.Move(horizontal*Time.fixedDeltaTime,false,jump);
+        // Move our character
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        jump = false;
     }
 }
