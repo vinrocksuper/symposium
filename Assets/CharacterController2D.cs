@@ -89,9 +89,15 @@ public class CharacterController2D : MonoBehaviour
 					OnCrouchEvent.Invoke(true);
 				}
 
-				// Reduce the speed by the crouchSpeed multiplier
-				move *= m_CrouchSpeed;
-
+                // Reduce the speed by the crouchSpeed multiplier
+                if (move > 0)
+                {
+                    move *= m_CrouchSpeed + .9f * move;
+                }
+                else
+                {
+                    move *= m_CrouchSpeed - .9f * move;
+                }
 				// Disable one of the colliders when crouching
 				if (m_CrouchDisableCollider != null)
 					m_CrouchDisableCollider.enabled = false;
@@ -133,7 +139,7 @@ public class CharacterController2D : MonoBehaviour
 			m_Grounded = true;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
-        if(crouch)
+        if(crouch || !m_Grounded && !jump)
         {
             m_Rigidbody2D.gravityScale = 2f;
         }
