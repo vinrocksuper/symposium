@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            Debug.Log("Jumped");
         }
 
         if (Input.GetButtonDown("Crouch"))
