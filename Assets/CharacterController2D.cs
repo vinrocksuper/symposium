@@ -133,38 +133,9 @@ public class CharacterController2D : MonoBehaviour
 			m_Grounded = true;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
-        if(crouch && jump && m_Grounded)
-        {
-            var colliders = GetComponents<Collider2D>();
-            foreach (var col in colliders)
-            {
-                GetComponent<Collider>().enabled = false;
-            }
-            SetTimer();
-            aTimer.Stop();
-            aTimer.Dispose();
-           
-        }
+    
 	}
 
-    private void SetTimer()
-    {
-        // Create a timer with a two second interval.
-        aTimer = new System.Timers.Timer(100);
-        // Hook up the Elapsed event for the timer. 
-        aTimer.Elapsed += OnTimedEvent;
-        aTimer.AutoReset = true;
-        aTimer.Enabled = true;
-    }
-
-    private void OnTimedEvent(object sender, ElapsedEventArgs e)
-    {
-        var colliders = GetComponents<Collider2D>();
-        foreach (var col in colliders)
-        {
-            GetComponent<Collider>().enabled = true;
-        }
-    }
 
     private void Flip()
 	{
