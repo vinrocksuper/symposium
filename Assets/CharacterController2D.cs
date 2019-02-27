@@ -133,7 +133,15 @@ public class CharacterController2D : MonoBehaviour
 			m_Grounded = true;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
-    
+        if(crouch)
+        {
+            m_Rigidbody2D.gravityScale = 2f;
+        }
+        else
+        {
+            m_Rigidbody2D.gravityScale = 1f;
+        }
+            
 	}
 
 
