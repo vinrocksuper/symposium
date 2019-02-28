@@ -9,10 +9,12 @@ public class DigitalClock : MonoBehaviour
 {
     public Text clockText;
     public bool showSeconds;
-    private int seconds;
+    private int hours;
     private int minutes;
     private DateTime time;
+    private bool am;
     // Use this for initialization
+    /**
     void Start()
     {
         seconds = -1;
@@ -47,5 +49,41 @@ public class DigitalClock : MonoBehaviour
         {
             clockText.text += ":" + time.Second.ToString("D2");
         }
+    }**/
+    private void Start()
+    {
+        hours = 6;
+        minutes = 0;
+        am = true;
+    }
+    private void FixedUpdate()
+    {
+        if(DateTime.Now > time)
+        {
+            time = DateTime.Now;
+            minutes++;
+            if(minutes > 60)
+            {
+                minutes = 0;
+                hours++;
+                if(hours > 12)
+                {
+                    hours = 1;
+                    if(am)
+                    {
+                        am = false;
+                    }
+                    else
+                    {
+                        am = true;
+                    }
+                }
+            }
+            UpdateText();
+        }
+    }
+    private void UpdateText()
+    {
+        clockText.text = hours + ":" + minutes;
     }
 }
