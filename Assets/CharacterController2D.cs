@@ -92,11 +92,11 @@ public class CharacterController2D : MonoBehaviour
                 // Reduce the speed by the crouchSpeed multiplier
                 if (move > 0)
                 {
-                    move *= m_CrouchSpeed + .9f * move;
+                    move *= m_CrouchSpeed + .2f * move;
                 }
                 else
                 {
-                    move *= m_CrouchSpeed - .9f * move;
+                    move *= m_CrouchSpeed - .2f * move;
                 }
 				// Disable one of the colliders when crouching
 				if (m_CrouchDisableCollider != null)
