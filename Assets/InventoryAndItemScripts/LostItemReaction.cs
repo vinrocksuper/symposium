@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
 public class LostItemReaction : DelayedReaction
 {
     public item item;
@@ -14,3 +14,4 @@ public class LostItemReaction : DelayedReaction
     }
 
 }
+    **/
