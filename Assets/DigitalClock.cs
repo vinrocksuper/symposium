@@ -57,6 +57,11 @@ public class DigitalClock : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(minutes < 10)
+        {
+            text.text = hours + ":0" + minutes;
+        }
+        else
         text.text = hours + ":" + minutes;
     }
 }
