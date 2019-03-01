@@ -8,17 +8,22 @@ using System.Timers;
 public class DigitalClock : MonoBehaviour
 {
     public static Text clockText;
-    public Text text;
-    public bool showSeconds;
+    public Text clock;
+    public Text date;
     private static double minutes;
     private static int hours;
     private static DateTime time;
     private static bool am;
     private static System.Timers.Timer aTimer;
+    private int season;
+    private int day;
+ 
     private void Start()
     {
         hours = 6;
         minutes = 0;
+        season = 1;
+        day = 1;
         am = true;
         SetTimer();
     }
@@ -35,78 +40,35 @@ public class DigitalClock : MonoBehaviour
 
     private void OnTimedEvent(System.Object source, ElapsedEventArgs e)
     {
-        minutes++;
-        if (minutes > 59)
-        {
-            minutes = 0;
-            hours++;
-        }
-        if (hours > 12)
-        {
-            hours = 1;
-            if (am)
-            {
-                am = false;
-            }
-            else
-            {
-                am = true;
-            }
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        if(minutes < 10)
-        {
-            text.text = hours + ":0" + minutes;
-        }
-        else
-        text.text = hours + ":" + minutes;
-    }
-}
-    
-
-
-
-
-   /** private static void OnTimedEvent(Object source, ElapsedEventArgs e)
-    {
-       
-        
-}
-
-    private void FixedUpdate()
-    {
-        if (DateTime.Now > time)
-        {
-            time = DateTime.Now;
-            minutes+= 1/60;
-            if (minutes > 60)
+            minutes++;
+            if (minutes > 59)
             {
                 minutes = 0;
                 hours++;
-                if (hours > 12)
-                {
-                    hours = 1;
-                    if (am)
-                    {
-                        am = false;
-                    }
-                    else
-                    {
-                        am = true;
-                    }
-                }
             }
-            UpdateText();
+            if (hours > 12)
+            {
+                hours = 1;
+                if (am)
+                {
+                    am = false;
+                }
+                else
+                {
+                    am = true;
+                }
+            }     
+    }
+
+    private void FixedUpdate()
+    {
+        if (minutes < 10)
+        {
+            clock.text = hours + ":0" + minutes;
+        }
+        else
+        {
+            clock.text = hours + ":" + minutes;
         }
     }
-    private void UpdateText()
-    {
-        
-    }
-
-
-}**/
-    
+}

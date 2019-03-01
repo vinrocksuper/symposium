@@ -112,6 +112,100 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17943779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17943780}
+  - component: {fileID: 17943783}
+  - component: {fileID: 17943782}
+  - component: {fileID: 17943781}
+  m_Layer: 5
+  m_Name: Date
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &17943780
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17943779}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1879308648}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 13.599976, y: -21.5}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &17943781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17943779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601483515cab1ac4fb94293c9033c1a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clock: {fileID: 1436573061}
+  date: {fileID: 17943782}
+--- !u!114 &17943782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17943779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &17943783
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17943779}
+  m_CullTransparentMesh: 0
 --- !u!1 &19775851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,7 +1237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c334e9fe33af824b8451ad7ea66f446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 750
   m_CrouchSpeed: 0.205
   m_MovementSmoothing: 0.3
   m_AirControl: 1
@@ -2192,7 +2286,7 @@ GameObject:
   - component: {fileID: 1436573061}
   - component: {fileID: 1436573064}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2259,7 +2353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -50}
+  m_AnchoredPosition: {x: 13.599976, y: -43.300003}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1436573064
@@ -2275,8 +2369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 601483515cab1ac4fb94293c9033c1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1436573061}
-  showSeconds: 0
+  clock: {fileID: 1436573061}
+  date: {fileID: 17943782}
 --- !u!1 &1530797993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2619,7 @@ RectTransform:
   m_Children:
   - {fileID: 988001834}
   - {fileID: 1436573063}
+  - {fileID: 17943780}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2728,7 +2823,7 @@ PrefabInstance:
     - target: {fileID: 8974849698368472521, guid: 01d70e94daa8997469e780a2532d8fef,
         type: 3}
       propertyPath: m_Name
-      value: Text
+      value: Clock
       objectReference: {fileID: 0}
     - target: {fileID: 8974849698368472522, guid: 01d70e94daa8997469e780a2532d8fef,
         type: 3}
@@ -2788,12 +2883,12 @@ PrefabInstance:
     - target: {fileID: 8974849698368472522, guid: 01d70e94daa8997469e780a2532d8fef,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -100
+      value: 13.6
       objectReference: {fileID: 0}
     - target: {fileID: 8974849698368472522, guid: 01d70e94daa8997469e780a2532d8fef,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: -43.3
       objectReference: {fileID: 0}
     - target: {fileID: 8974849698368472522, guid: 01d70e94daa8997469e780a2532d8fef,
         type: 3}
