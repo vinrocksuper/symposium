@@ -3,49 +3,105 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
-// © 2017 TheFlyingKeyboard and released under MIT License
-// theflyingkeyboard.net
+using System.Timers;
+
 public class DigitalClock : MonoBehaviour
 {
-    public Text clockText;
+    public static Text clockText;
+    public Text text;
     public bool showSeconds;
-    private int seconds;
-    private int minutes;
-    private DateTime time;
-    // Use this for initialization
-    void Start()
+    private static double minutes;
+    private static int hours;
+    private static DateTime time;
+    private static bool am;
+    private static System.Timers.Timer aTimer;
+    private void Start()
     {
-        seconds = -1;
-        minutes = -1;
+        hours = 6;
+        minutes = 0;
+        am = true;
+        SetTimer();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void SetTimer()
     {
-        time = DateTime.Now;
-        if (showSeconds)
+        // Create a timer with a two second interval.
+        aTimer = new System.Timers.Timer(1000);
+        // Hook up the Elapsed event for the timer. 
+        aTimer.Elapsed += OnTimedEvent;
+        aTimer.AutoReset = true;
+        aTimer.Enabled = true;
+    }
+
+    private void OnTimedEvent(System.Object source, ElapsedEventArgs e)
+    {
+        minutes++;
+        if (minutes > 59)
         {
-            if (seconds != time.Second)
-            {
-                UpdateText();
-                seconds = time.Second;
-            }
+            minutes = 0;
+            hours++;
         }
-        else
+        if (hours > 12)
         {
-            if (minutes != time.Minute)
+            hours = 1;
+            if (am)
             {
-                UpdateText();
-                minutes = time.Minute;
+                am = false;
+            }
+            else
+            {
+                am = true;
             }
         }
     }
-    void UpdateText()
+
+    private void FixedUpdate()
     {
-        clockText.text = time.Hour.ToString("D2") + ":" + time.Minute.ToString("D2");
-        if (showSeconds)
-        {
-            clockText.text += ":" + time.Second.ToString("D2");
-        }
+        text.text = hours + ":" + minutes;
     }
 }
+    
+
+
+
+
+   /** private static void OnTimedEvent(Object source, ElapsedEventArgs e)
+    {
+       
+        
+}
+
+    private void FixedUpdate()
+    {
+        if (DateTime.Now > time)
+        {
+            time = DateTime.Now;
+            minutes+= 1/60;
+            if (minutes > 60)
+            {
+                minutes = 0;
+                hours++;
+                if (hours > 12)
+                {
+                    hours = 1;
+                    if (am)
+                    {
+                        am = false;
+                    }
+                    else
+                    {
+                        am = true;
+                    }
+                }
+            }
+            UpdateText();
+        }
+    }
+    private void UpdateText()
+    {
+        
+    }
+
+
+}**/
+    
