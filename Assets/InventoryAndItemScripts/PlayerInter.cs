@@ -7,21 +7,32 @@ public class PlayerInter : MonoBehaviour
 
     public GameObject curInterObj = null;
 
+    private void Update()
+    {
+        if(Input.GetButtonDown("Interact") && curInterObj)
+        {
+            //Does something with the object
+            curInterObj.SendMessage("DoInter");
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("interObject") && Input.GetButtonUp("Interact"))
+        if (other.CompareTag("interObject"))
         {
             Debug.Log(other.name);
             curInterObj = other.gameObject;
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("interObject") && Input.GetButtonUp("Interact"))
+        if(other.CompareTag("interObject"))
         {
-            Debug.Log(other.name);
-            curInterObj = other.gameObject;
+            if(other.gameObject == curInterObj)
+            {
+                curInterObj = null;
+            }
         }
     }
 }

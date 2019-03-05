@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class InterObject : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void DoInter()
     {
-        
-    }
+        //Make item disappear
+        gameObject.SetActive(false);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
