@@ -44,16 +44,16 @@ public class DigitalClock : MonoBehaviour
                 minutes = 0;
                 hours++;
             }
-            if(hours == 12 && minutes == 0 && !dayPassed)
+            if(hours == 12 && minutes == 0 && !dayPassed && am)
             {
-                if(am)
-                {
-                    am = false;
-                }
-                else
-                {
-                    am = true;
-                }
+            if (am)
+            {
+                am = false;
+            }
+            else
+            {
+                am = true;
+            }
             }
             if(hours > 12)
             {
