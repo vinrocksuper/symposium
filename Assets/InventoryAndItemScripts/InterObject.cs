@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InterObject : MonoBehaviour
 {
+    public bool inventory; //if true can be stored in inventory
+
     public void DoInter()
     {
         //Make item disappear

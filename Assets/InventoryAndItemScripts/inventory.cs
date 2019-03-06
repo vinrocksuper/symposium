@@ -1,38 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class inventory : MonoBehaviour
+public class Inventory : MonoBehaviour
 {
-	public Image[] itemImages = new Image[numItemSlots];
-	public item[] items = new item[numItemSlots];
+    public GameObject[] inventory = new GameObject[5];
 
-	public const int numItemSlots = 5;
-	public void AddItem(item itemToAdd)
-	{
-		for (int i = 0; i < items.Length; i++)
-		{
-			if (items[i] == null)
-			{
-				items[i] = itemToAdd;
-				itemImages[i].sprite = itemToAdd.sprite;
-				itemImages[i].enabled = true;
-				return;
-			}
-		}
-	}
-	public void RemoveItem (item itemToRemove)
-	{
-		for (int i = 0; i < items.Length; i++)
-		{
-			if (items[i] == itemToRemove)
-			{
-				items[i] = null;
-				itemImages[i].sprite = null;
-				itemImages[i].enabled = false;
-				return;
-			}
-		}
-	}
+    public void AddItem(GameObject item)
+    {
+        bool itemAdded = false;
+
+        //find first open slot in inventory
+        for(int i = 0;i < inventory.Length;i++)
+        {
+            if(inventory[i] == null)
+            {
+                inventory[i] = item;
+                Debug.Log(item.name + " was added");
+                itemAdded = true;
+                //Does something with the object
+                item.SendMessage("DoInter");
+                break;
+            }
+        }
+
+        //inventory full
+        if (!itemAdded)
+        {
+            Debug.Log("Inventory full - Item not added.");
+        }
+    }
 }

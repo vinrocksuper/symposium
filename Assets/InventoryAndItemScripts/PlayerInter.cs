@@ -6,13 +6,19 @@ public class PlayerInter : MonoBehaviour
 {
 
     public GameObject curInterObj = null;
+    public InterObject curInterObjScript = null;
+    public Inventory inventory;
 
     private void Update()
     {
         if(Input.GetButtonDown("Interact") && curInterObj)
         {
-            //Does something with the object
-            curInterObj.SendMessage("DoInter");
+            //Check to see if this object is to be stored in inventory
+            if(curInterObjScript.inventory)
+            {
+                inventory.AddItem(curInterObj);
+                curInterObj = null;
+            }
         }
     }
 
@@ -22,6 +28,7 @@ public class PlayerInter : MonoBehaviour
         {
             Debug.Log(other.name);
             curInterObj = other.gameObject;
+            curInterObjScript = curInterObj.GetComponent<InterObject>();
         }
     }
 
