@@ -9,28 +9,26 @@ public class DigitalClock : MonoBehaviour
 {
     public static Text clockText;
     public Text clock;
-    public Text date;
-    private static double minutes;
-    private static int hours;
-    private static DateTime time;
-    private bool am;
-    private static System.Timers.Timer aTimer;
-    private int season;
-    private int day;
-    private bool dayPassed = false;
+    public  double minutes;
+    public  int hours;
+    public int day =1;
+    public int season = 1;
+    private  DateTime time;
+    public bool am;
+    private  System.Timers.Timer aTimer;
+
+
     private void Start()
     {
         hours = 11;
         minutes = 50;
-        season = 1;
-        day = 1;
         am = false;
         SetTimer();
     }
 
     private void SetTimer()
     {
-        aTimer = new System.Timers.Timer(100);
+        aTimer = new System.Timers.Timer(1000);
         aTimer.Elapsed += OnTimedEvent;
         aTimer.AutoReset = true;
         aTimer.Enabled = true;
@@ -44,7 +42,7 @@ public class DigitalClock : MonoBehaviour
                 minutes = 0;
                 hours++;
             }
-            if(hours == 12 && minutes == 0 && !dayPassed && am)
+            if(hours == 12 && minutes == 0)
             {
             if (am)
             {
@@ -52,16 +50,6 @@ public class DigitalClock : MonoBehaviour
             }
             else
             {
-                am = true;
-            }
-            }
-            if(hours > 12)
-            {
-                hours = 1;
-            }
-            if (hours == 12 && minutes == 0 && !am && !dayPassed)
-            {
-                dayPassed = true;
                 am = true;
                 day++;
                 if (day > 28)
@@ -73,59 +61,33 @@ public class DigitalClock : MonoBehaviour
                         season = 1;
                     }
                 }
-        }     
+            }
+            }
+            if(hours > 12)
+            {
+                hours = 1;
+            }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        /**
-        if (hours < 10)
-        {
-            if (minutes < 10)
-            {
-                if (am)
-                {
-                    clock.text = "0" + hours + ":0" + minutes + "am";
-                }
-                else
-                {
-                    clock.text = "0" + hours + ":0" + minutes + "pm";
-                }
-
-            }
-        }
-        else if (minutes < 10)
-        {
-            {
-                if (am)
-                {
-                    clock.text = hours + ":0" + minutes + "am";
-                }
-                else
-                {
-                    clock.text = hours + ":0" + minutes + "pm";
-                }
-
-            }
-        }
-        else  **/
         if (am)
         {
+            if(minutes<10)
+            {
+                clock.text = hours + ":0" + minutes + "am";
+            }
+            else
             clock.text = hours + ":" + minutes + "am";
         }
         else
         {
-            clock.text = hours + ":" + minutes + "pm";
-        }
-        if (day < 10)
-        {
-            date.text = "0" + season + "/0" + day;
-            dayPassed = false;
-        }
-        else
-        {
-            date.text = "0" + season + "/" + day;
-            dayPassed = false;
+            if (minutes < 10)
+            {
+                clock.text = hours + ":0" + minutes + "pm";
+            }
+            else
+                clock.text = hours + ":" + minutes + "pm";
         }
     }
 }
