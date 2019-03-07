@@ -5,6 +5,7 @@ using UnityEngine;
 public class InterObject : MonoBehaviour
 {
     public bool inventory; //if true can be stored in inventory
+    public bool farmable; //true if farmable
 
     public void DoInter()
     {
@@ -12,4 +13,6 @@ public class InterObject : MonoBehaviour
         gameObject.SetActive(false);
 
     }
+
+
 }
