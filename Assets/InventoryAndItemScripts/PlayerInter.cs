@@ -19,6 +19,10 @@ public class PlayerInter : MonoBehaviour
                 inventory.AddItem(curInterObj);
                 curInterObj = null;
             }
+            if (!curInterObjScript.inventory && !curInterObjScript.farmable)
+            {
+                curInterObjScript.DoInter();
+            }
         }
     }
 
