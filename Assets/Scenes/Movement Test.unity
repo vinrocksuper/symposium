@@ -759,6 +759,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!58 &384416378
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1069,6 +1071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 0
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1314,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!58 &605774749
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1472,9 +1478,11 @@ GameObject:
   m_Component:
   - component: {fileID: 663035491}
   - component: {fileID: 663035490}
+  - component: {fileID: 663035493}
+  - component: {fileID: 663035492}
   m_Layer: 0
   m_Name: house
-  m_TagString: Untagged
+  m_TagString: interObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1541,6 +1549,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &663035492
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663035489}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.056245685, y: -0.2822539}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.87, y: 1.08}
+    newSize: {x: 0.87, y: 1.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.601139, y: 0.51549214}
+  m_EdgeRadius: 0
+--- !u!114 &663035493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663035489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f620121d630cd2e46b12d11dbddb9320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: 0
+  farmable: 0
+  dc: {fileID: 1436573064}
+  gm: {fileID: 113272082}
 --- !u!1 &709028109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,6 +1661,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!58 &717285596
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1981,6 +2033,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ebd4922cabe5c4b92cf124e81baa95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventory:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &988001833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!58 &1388618564
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3262,6 +3322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!58 &1672267793
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3334,7 +3396,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672267791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.081473, y: -0.74360454, z: -0.08234689}
+  m_LocalPosition: {x: 0.71, y: 4.71, z: -0.08234689}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3373,6 +3435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!58 &1692269602
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3572,6 +3636,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 0
   farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!1 &1807451229
 GameObject:
   m_ObjectHideFlags: 0
