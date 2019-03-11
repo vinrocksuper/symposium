@@ -20,10 +20,28 @@ public class DigitalClock : MonoBehaviour
 
     private void Start()
     {
-        hours = 11;
-        minutes = 50;
-        am = false;
+        hours = 6;
+        minutes = 0;
+        am = true;
         SetTimer();
+    }
+    public void restart()
+    {
+        aTimer.Close();
+        hours = 6;
+        minutes = 0;
+        am = true;
+        SetTimer();
+        day++;
+        if(day> 28)
+        {
+            day = 1;
+            season++;
+            if(season > 4)
+            {
+                season = 1;
+            }
+        }
     }
 
     private void SetTimer()
