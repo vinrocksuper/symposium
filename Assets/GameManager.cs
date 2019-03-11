@@ -23,15 +23,4 @@ public class GameManager : MonoBehaviour
             
         }
     }
-    public void UpdateTime()
-    {
-        if (dc.day < 10)
-        {
-            date.text = dc.season + "/0" + dc.day;
-        }
-        else
-        {
-            date.text = dc.season + "/" + dc.day;
-        }
-    }
 }
