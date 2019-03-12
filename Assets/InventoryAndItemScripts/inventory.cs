@@ -11,9 +11,9 @@ public class Inventory : MonoBehaviour
         bool itemAdded = false;
 
         //find first open slot in inventory
-        for(int i = 0;i < inventory.Length;i++)
+        for (int i = 0; i < inventory.Length; i++)
         {
-            if(inventory[i] == null)
+            if (inventory[i] == null)
             {
                 inventory[i] = item;
                 Debug.Log(item.name + " was added");
