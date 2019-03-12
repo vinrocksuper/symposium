@@ -352,6 +352,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &47498511
 =======
 --- !u!1 &44456177
@@ -430,6 +431,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44456177}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!1 &113272081
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -619,6 +622,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &93341709
 =======
 --- !u!1 &155779297
@@ -626,6 +630,9 @@ CanvasRenderer:
 =======
 --- !u!1 &155779297
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!1 &246671781
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -633,6 +640,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 93341710}
@@ -653,10 +661,18 @@ GameObject:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 =======
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  - component: {fileID: 246671783}
+  - component: {fileID: 246671782}
+  m_Layer: 8
+  m_Name: back
+  m_TagString: Untagged
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!224 &93341710
@@ -710,12 +726,15 @@ BoxCollider2D:
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
 --- !u!212 &155779300
+=======
+--- !u!212 &246671782
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155779297}
+  m_GameObject: {fileID: 246671781}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -743,27 +762,28 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1089049313
+  m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8e160a2a620644cd6afef9119dad1093, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.84, y: 2.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &155779301
+--- !u!4 &246671783
 Transform:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 93341709}
@@ -789,15 +809,25 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.4, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_GameObject: {fileID: 246671781}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 2, z: 0}
+  m_LocalScale: {x: 8.776027, y: 6.5065565, z: 1}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1807451231}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &202102099
 <<<<<<< HEAD
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 =======
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!1 &298206266
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -805,6 +835,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 110840694}
@@ -828,11 +859,19 @@ GameObject:
   m_Layer: 5
   m_Name: Viewport
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  - component: {fileID: 298206267}
+  - component: {fileID: 298206269}
+  - component: {fileID: 298206268}
+  m_Layer: 5
+  m_Name: backgroundImage
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!224 &110840694
@@ -842,11 +881,15 @@ GameObject:
 =======
 --- !u!224 &202102100
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!224 &298206267
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 110840693}
@@ -870,12 +913,21 @@ RectTransform:
   m_Children:
   - {fileID: 714104236}
   m_Father: {fileID: 1088619142}
+=======
+  m_GameObject: {fileID: 298206266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 427219060}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_RootOrder: 0
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_SizeDelta: {x: 100, y: 100}
@@ -891,11 +943,17 @@ RectTransform:
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &202102101
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &298206268
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 110840693}
@@ -905,6 +963,9 @@ MonoBehaviour:
 =======
   m_GameObject: {fileID: 202102099}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_GameObject: {fileID: 298206266}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -918,8 +979,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f30bd57ccf418ee4b9006e4727796718, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -929,6 +990,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &110840696
 =======
 --- !u!222 &202102102
@@ -936,11 +998,15 @@ MonoBehaviour:
 =======
 --- !u!222 &202102102
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!222 &298206269
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 110840693}
@@ -991,6 +1057,11 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &136174298
+=======
+  m_GameObject: {fileID: 298206266}
+  m_CullTransparentMesh: 0
+--- !u!1 &338973070
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -998,9 +1069,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 136174299}
   - component: {fileID: 136174301}
   - component: {fileID: 136174300}
+=======
+  - component: {fileID: 338973071}
+  - component: {fileID: 338973073}
+  - component: {fileID: 338973072}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Layer: 5
   m_Name: backgroundImage
   m_TagString: Untagged
@@ -1008,18 +1085,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &136174299
+=======
+--- !u!224 &338973071
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 136174298}
+=======
+  m_GameObject: {fileID: 338973070}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 709028110}
+=======
+  m_Father: {fileID: 2073850119}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1027,6 +1116,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!114 &136174300
 =======
   m_GameObject: {fileID: 202102099}
@@ -1038,11 +1128,15 @@ RectTransform:
   m_CullTransparentMesh: 0
 --- !u!114 &202102103
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!114 &338973072
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 136174298}
@@ -1052,6 +1146,9 @@ MonoBehaviour:
 =======
   m_GameObject: {fileID: 202102099}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_GameObject: {fileID: 338973070}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1076,12 +1173,17 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+<<<<<<< HEAD
 --- !u!222 &136174301
+=======
+--- !u!222 &338973073
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 136174298}
   m_CullTransparentMesh: 0
 --- !u!1 &146406057
@@ -1093,6 +1195,11 @@ CanvasRenderer:
   m_ShowMaskGraphic: 0
 --- !u!1 &211283484
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_GameObject: {fileID: 338973070}
+  m_CullTransparentMesh: 0
+--- !u!1 &414225727
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1100,6 +1207,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 146406058}
@@ -1117,6 +1225,13 @@ GameObject:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
   m_Layer: 5
   m_Name: Shipping bin UI
+=======
+  - component: {fileID: 414225728}
+  - component: {fileID: 414225730}
+  - component: {fileID: 414225729}
+  m_Layer: 5
+  m_Name: itemImage
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1124,6 +1239,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &146406058
 =======
   m_IsActive: 0
@@ -1133,11 +1249,15 @@ GameObject:
   m_IsActive: 0
 --- !u!224 &211283485
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!224 &414225728
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 146406057}
@@ -1333,10 +1453,20 @@ RectTransform:
   m_Father: {fileID: 1545520606}
   m_RootOrder: 0
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_GameObject: {fileID: 414225727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1541184146}
+  m_RootOrder: 1
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_SizeDelta: {x: 100, y: 100}
@@ -1346,8 +1476,48 @@ RectTransform:
 =======
   m_SizeDelta: {x: -20, y: -20}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_SizeDelta: {x: 60, y: 60}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &246671781
+--- !u!114 &414225729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414225727}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &414225730
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414225727}
+  m_CullTransparentMesh: 0
+--- !u!1 &427219059
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1355,10 +1525,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 246671783}
-  - component: {fileID: 246671782}
-  m_Layer: 8
-  m_Name: back
+  - component: {fileID: 427219060}
+  m_Layer: 5
+  m_Name: itemSlot3
   m_TagString: Untagged
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,6 +1538,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &246671782
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1923,6 +2093,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!224 &427219060
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1943,42 +2115,6 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &468832148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 468832149}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &468832149
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468832148}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 44456178}
-  m_Father: {fileID: 763733371}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &502381165
 GameObject:
@@ -2014,10 +2150,14 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Offset: {x: -0.25677943, y: 0.040086508}
 =======
   m_Offset: {x: 0, y: 0}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_Offset: {x: 0.61482906, y: -1.0089512}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2029,10 +2169,14 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 4.639154, y: 2.5390396}
 =======
   m_Size: {x: 2, y: 3}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_Size: {x: 1.8603554, y: 1.985455}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_EdgeRadius: 0
 --- !u!114 &272634679
 MonoBehaviour:
@@ -2110,10 +2254,14 @@ Transform:
   m_GameObject: {fileID: 272634677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 5.68, y: -2.72, z: -0.027570983}
 =======
   m_LocalPosition: {x: 12.4, y: -4, z: 0}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_LocalPosition: {x: 10.335814, y: -1.5, z: -0.14453125}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2136,11 +2284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 0
   farmable: 0
-  bin: 0
-  inv: {fileID: 0}
   dc: {fileID: 0}
   gm: {fileID: 0}
-  UI: {fileID: 0}
 --- !u!1 &519420028
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -2323,15 +2468,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 0
   farmable: 0
-  bin: 0
-  inv: {fileID: 0}
   dc: {fileID: 0}
   gm: {fileID: 0}
+<<<<<<< HEAD
   UI: {fileID: 0}
 <<<<<<< HEAD
 --- !u!61 &382125943
 BoxCollider2D:
 =======
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!58 &605774749
 CircleCollider2D:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
@@ -2445,6 +2591,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 414225727}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2637,13 +2784,58 @@ Transform:
 --- !u!1 &427219059
 =======
   m_GameObject: {fileID: 655044405}
+=======
+  m_GameObject: {fileID: 606096872}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.4, y: -4, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 709028110}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &606096874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606096872}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &606096875
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606096872}
+  m_CullTransparentMesh: 0
 --- !u!1 &663035489
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -2661,12 +2853,66 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &427219060
 RectTransform:
+=======
+--- !u!212 &663035490
+SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663035489}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 52422ada2db954026a3ae1f1ba6b4486, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.87, y: 1.08}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &663035491
+Transform:
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 427219059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -2689,6 +2935,12 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.23, y: 0.524, z: 0}
   m_LocalScale: {x: 8.176, y: 8.102558, z: 1}
+=======
+  m_GameObject: {fileID: 663035489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.74, y: 2.28, z: 0}
+  m_LocalScale: {x: 8.176, y: 7.977, z: 1}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -2733,11 +2985,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 0
   farmable: 0
-  bin: 0
-  inv: {fileID: 0}
   dc: {fileID: 1436573064}
   gm: {fileID: 113272082}
-  UI: {fileID: 0}
 --- !u!1 &709028109
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -2776,6 +3025,7 @@ RectTransform:
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &502381165
 =======
 --- !u!1 &714104235
@@ -2813,6 +3063,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000012857155}
   m_SizeDelta: {x: 0, y: 768}
   m_Pivot: {x: 0, y: 1}
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!1 &717285594
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -2852,11 +3104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
-  bin: 0
-  inv: {fileID: 0}
   dc: {fileID: 0}
   gm: {fileID: 0}
-  UI: {fileID: 0}
 --- !u!58 &717285596
 CircleCollider2D:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
@@ -2957,6 +3206,7 @@ Transform:
   m_Father: {fileID: 1807451231}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &277205296
@@ -3178,6 +3428,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857566047}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!1 &901226475
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -3600,6 +3852,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &1088619141
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,10 +3951,15 @@ SpriteRenderer:
 --- !u!222 &1088619144
 CanvasRenderer:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+--- !u!1 &1260915893
+GameObject:
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 655044405}
   m_Enabled: 1
@@ -3754,10 +4012,26 @@ Transform:
 --- !u!114 &1088619145
 MonoBehaviour:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260915895}
+  - component: {fileID: 1260915894}
+  m_Layer: 0
+  m_Name: Shipping bin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1260915894
+SpriteRenderer:
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 414225727}
@@ -3776,31 +4050,64 @@ MonoBehaviour:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 =======
   m_GameObject: {fileID: 1088619141}
+=======
+  m_GameObject: {fileID: 1260915893}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1367256648, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Content: {fileID: 714104236}
-  m_Horizontal: 1
-  m_Vertical: 1
-  m_MovementType: 2
-  m_Elasticity: 0.1
-  m_Inertia: 1
-  m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
-  m_Viewport: {fileID: 202102100}
-  m_HorizontalScrollbar: {fileID: 1545520607}
-  m_VerticalScrollbar: {fileID: 763733372}
-  m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 2
-  m_HorizontalScrollbarSpacing: -3
-  m_VerticalScrollbarSpacing: -3
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 81487c3a2b329f740924e40dcd3158e4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1260915895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260915893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.26, y: -0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352745341
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -3875,11 +4182,8 @@ BoxCollider2D:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
-  bin: 0
-  inv: {fileID: 0}
   dc: {fileID: 0}
   gm: {fileID: 0}
-  UI: {fileID: 0}
 --- !u!58 &1388618564
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3965,6 +4269,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 10.335814, y: -1.5, z: -0.14453125}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
@@ -3973,6 +4278,9 @@ Transform:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 =======
   m_LocalPosition: {x: 1.33, y: -2.95, z: -0.027570983}
+=======
+  m_LocalPosition: {x: 1.55, y: -0.9, z: -0.027570983}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalScale: {x: 7, y: 7, z: 1}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
   m_Children: []
@@ -4028,6 +4336,7 @@ RectTransform:
   m_GameObject: {fileID: 709028109}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4071,6 +4380,10 @@ RectTransform:
   m_LocalPosition: {x: -0.792, y: -1.201, z: 0}
   m_LocalScale: {x: 1.2202411, y: 1.285242, z: 1}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Children: []
   m_Father: {fileID: 202102100}
   m_RootOrder: 0
@@ -6679,62 +6992,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: 6, y: -3, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 7, y: -3, z: 0}
-    second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 8, y: -3, z: 0}
-    second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 9, y: -3, z: 0}
-    second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 10, y: -3, z: 0}
-    second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 11, y: -3, z: 0}
-    second:
       m_TileIndex: 23
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 12, y: -3, z: 0}
-    second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 23
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -6851,7 +7110,7 @@ Tilemap:
   - first: {x: 4, y: -2, z: 0}
     second:
       m_TileIndex: 3
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -6867,51 +7126,6 @@ Tilemap:
       m_TileFlags: 1
       m_ColliderType: 1
   - first: {x: 6, y: -2, z: 0}
-    second:
-      m_TileIndex: 22
-      m_TileSpriteIndex: 22
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 7, y: -2, z: 0}
-    second:
-      m_TileIndex: 22
-      m_TileSpriteIndex: 22
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 8, y: -2, z: 0}
-    second:
-      m_TileIndex: 22
-      m_TileSpriteIndex: 22
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 9, y: -2, z: 0}
-    second:
-      m_TileIndex: 22
-      m_TileSpriteIndex: 22
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 10, y: -2, z: 0}
-    second:
-      m_TileIndex: 22
-      m_TileSpriteIndex: 22
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 11, y: -2, z: 0}
     second:
       m_TileIndex: 22
       m_TileSpriteIndex: 22
@@ -6995,7 +7209,7 @@ Tilemap:
   - first: {x: 3, y: -1, z: 0}
     second:
       m_TileIndex: 5
-      m_TileSpriteIndex: 23
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -7106,7 +7320,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0e8e612eaeb0c9543b6f7c6fd8e2715c, type: 2}
   - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 0d48c55d73dbe8d4a806a9bd04bcc653, type: 2}
-  - m_RefCount: 19
+  - m_RefCount: 13
     m_Data: {fileID: 11400000, guid: c101fbfc4109f0441beb5101bca21fd8, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 322bae806d3936947a85724877c3f50c, type: 2}
@@ -7146,7 +7360,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c6776ada38c840241b035a3eb364a750, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 245944596b152fb4da08425d0de01857, type: 2}
-  - m_RefCount: 7
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 4c9068ea07efee545b6a8ae24784d83a, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 6fa3e9838ff0b914eb25b089d2b89fe2, type: 2}
@@ -7155,14 +7369,14 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: 21300002, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
-  - m_RefCount: 19
+  - m_RefCount: 13
     m_Data: {fileID: 21300048, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300052, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
+    m_Data: {fileID: 21300004, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300200, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300004, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
+    m_Data: {fileID: 21300202, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300196, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 1
@@ -7195,12 +7409,12 @@ Tilemap:
     m_Data: {fileID: 21300088, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300090, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
-  - m_RefCount: 7
+  - m_RefCount: 2
     m_Data: {fileID: 21300006, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300202, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
+    m_Data: {fileID: 21300052, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 61
+  - m_RefCount: 50
     m_Data:
       e00: 1
       e01: 0
@@ -7219,11 +7433,12 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 61
+  - m_RefCount: 50
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -8, y: -3, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Size: {x: 15, y: 5, z: 1}
@@ -7233,6 +7448,9 @@ Tilemap:
 =======
   m_Size: {x: 21, y: 5, z: 1}
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_Size: {x: 15, y: 5, z: 1}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -7253,6 +7471,7 @@ Tilemap:
     e32: 0
     e33: 1
 --- !u!61 &1420611566
+<<<<<<< HEAD
 <<<<<<< HEAD
 BoxCollider2D:
 <<<<<<< HEAD
@@ -7823,6 +8042,8 @@ GameObject:
 --- !u!61 &1698722893
 =======
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8079,7 +8300,7 @@ MonoBehaviour:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.0148644, y: -4.2648716}
+  m_Offset: {x: 2.019517, y: -4.2648716}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8090,7 +8311,7 @@ MonoBehaviour:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 33.969048, y: 4.470257}
+  m_Size: {x: 23.978365, y: 4.470257}
   m_EdgeRadius: 0
 --- !u!68 &1420611568
 EdgeCollider2D:
@@ -8455,6 +8676,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &1545520605
 GameObject:
   m_ObjectHideFlags: 0
@@ -8579,6 +8801,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1545520605}
   m_CullTransparentMesh: 0
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!1 &1692269600
 GameObject:
   m_ObjectHideFlags: 0
@@ -8612,11 +8836,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: 1
   farmable: 0
-  bin: 0
-  inv: {fileID: 0}
   dc: {fileID: 0}
   gm: {fileID: 0}
-  UI: {fileID: 0}
 --- !u!58 &1692269602
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8817,6 +9038,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1819890260
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 GameObject:
@@ -8940,6 +9162,9 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819890260
+=======
+--- !u!1 &1698722892
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8947,11 +9172,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1819890264}
-  - component: {fileID: 1819890263}
-  - component: {fileID: 1819890262}
-  - component: {fileID: 1819890261}
+  - component: {fileID: 1698722895}
+  - component: {fileID: 1698722894}
+  - component: {fileID: 1698722893}
+  - component: {fileID: 1698722896}
   m_Layer: 0
+<<<<<<< HEAD
 =======
   - component: {fileID: 1819890264}
   - component: {fileID: 1819890263}
@@ -8960,44 +9186,28 @@ GameObject:
   m_Layer: 0
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
   m_Name: farmlandTest (2)
+=======
+  m_Name: farmlandTest (1)
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_TagString: interObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1819890261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819890260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f620121d630cd2e46b12d11dbddb9320, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: 0
-  farmable: 0
-  bin: 0
-  inv: {fileID: 0}
-  dc: {fileID: 0}
-  gm: {fileID: 0}
-  UI: {fileID: 0}
---- !u!61 &1819890262
+--- !u!61 &1698722893
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819890260}
+  m_GameObject: {fileID: 1698722892}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.052737236, y: -1.0089512}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9008,15 +9218,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 3}
+  m_Size: {x: 1.9321117, y: 1.985455}
   m_EdgeRadius: 0
---- !u!212 &1819890263
+--- !u!212 &1698722894
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1819890260}
+=======
+  m_GameObject: {fileID: 1698722892}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -9058,6 +9272,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!4 &1819890264
 Transform:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
@@ -9251,10 +9466,15 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &2054612675
 RectTransform:
+=======
+--- !u!4 &1698722895
+Transform:
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2054612674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9275,13 +9495,81 @@ RectTransform:
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
 =======
   m_GameObject: {fileID: 1819890260}
+=======
+  m_GameObject: {fileID: 1698722892}
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.4, y: -4, z: 0}
+  m_LocalPosition: {x: 13, y: -1.5, z: -0.14453125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 13
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1698722896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698722892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f620121d630cd2e46b12d11dbddb9320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: 0
+  farmable: 0
+  dc: {fileID: 0}
+  gm: {fileID: 0}
+--- !u!1 &1807451229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807451231}
+  - component: {fileID: 1807451230}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!156049354 &1807451230
+Grid:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807451229}
+  m_Enabled: 1
+  m_CellSize: {x: 2, y: 2, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0
+--- !u!4 &1807451231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807451229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1420611563}
+  - {fileID: 246671783}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9382,7 +9670,6 @@ CanvasRenderer:
   - {fileID: 988001834}
   - {fileID: 1436573063}
   - {fileID: 17943780}
-  - {fileID: 211283485}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9391,6 +9678,7 @@ CanvasRenderer:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1 &1889377755
 GameObject:
   m_ObjectHideFlags: 0
@@ -9471,6 +9759,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1889377755}
   m_CullTransparentMesh: 0
 >>>>>>> c189ba92b316c503e7c141aca32dd0d5b0e23010
+=======
+>>>>>>> parent of c189ba9... Shipping bin UI /shop UI WIP
 --- !u!1 &2073850118
 GameObject:
   m_ObjectHideFlags: 0

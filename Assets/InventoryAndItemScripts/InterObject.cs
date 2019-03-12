@@ -6,11 +6,8 @@ public class InterObject : MonoBehaviour
 {
     public bool inventory; //if true can be stored in inventory
     public bool farmable; //true if farmable
-    public bool bin;
-    public Inventory inv;
-    public DigitalClock dc = null;
-    public GameManager gm = null;
-    public GameObject UI;
+    public DigitalClock dc;
+    public GameManager gm;
     public void DoInter()
     {
         //Make item disappear
@@ -22,26 +19,12 @@ public class InterObject : MonoBehaviour
         {
 
         }
-        else if (dc && gm)
+        else
         {
             dc.restart();
             gm.UpdateTime();
         }
-        else if(bin)
-        {
-            UI.SetActive(true);
+    }
 
-        }
-    }
-    public void Update()
-    {
-        if(Input.GetButtonDown("Cancel"))
-        {
-            if(UI.activeSelf)
-            {
-                UI.SetActive(false);
-            }
-        }
-    }
 
 }
